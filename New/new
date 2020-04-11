@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> About Covid-19 </title>
+
+<script type="text/javascript">
+
+	function fetchdata(elements) 
+{
+	var show = document.getElementById(elements);
+	if (show != null) 
+	{
+		if (show.style.display == "block") 
+		{
+			show.style.display = 'none';
+		}
+		else
+		{
+			show.style.display = 'block';
+		}
+	return false;
+	}
+}
+
+</script>
+
+
+</head>
+<body style="background-color: yellow;">
+
+<div style="margin-top: 50px;">
+	<h1 style="color: red; text-align: center; font-size: 50px; letter-spacing: 2px; word-spacing: 5px;">Amidst all the rumours and news that are quite a many times delusional, take a moment to know what actually this pandemic is about, compiled from various verified sources!</h1>
+</div>
+
+<div>
+	<button onclick="return fetchdata('symptoms')" style="font-size: 30px; background-color: green; color: yellow; border-radius: 50px; width: 250px; outline: none;"> How It Starts </button>
+</div>
+
+<div id="symptoms" style="display: none; background-color: peachpuff; height: 500px; text-align: center;">
+<div style="font-size: 40px;">
+	The most common symptom of Covid-19 clashes with those of influenza as well as the common flu, and this is the reason why (if you don't count the controversy around it!) Chinese doctors were at first not able to perceive it as a new disease
+	
+</div>
+</div>
+
+</body>
+</html>
