@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="forum.css">
 <head>
 	<title> About Covid-19 </title>
+
+
 
 <script type="text/javascript">
 
@@ -26,19 +29,95 @@
 
 
 </head>
-<body style="background-color: yellow;">
-
-<div style="margin-top: 50px;">
-	<h1 style="color: red; text-align: center; font-size: 50px; letter-spacing: 2px; word-spacing: 5px;">Amidst all the rumours and news that are quite a many times delusional, take a moment to know what actually this pandemic is about, compiled from various verified sources!</h1>
-</div>
+<body>
 
 <div>
-	<button onclick="return fetchdata('symptoms')" style="font-size: 30px; background-color: green; color: yellow; border-radius: 50px; width: 250px; outline: none;"> How It Starts </button>
+	<h1 style="text-align: center;">Amidst all the rumours and news that are quite a many times delusional, take a moment to know what actually this pandemic is about, compiled from various verified sources!</h1>
 </div>
 
-<div id="symptoms" style="display: none; background-color: peachpuff; height: 500px; text-align: center;">
+<div style="margin-top: 50px;">
+<table>
+	<tr>
+		<td class="td">
+	<button onclick="return fetchdata('symptoms')" class="submit"> How It Starts </button>
+</td>
+<td class="td">
+	<button onclick="return fetchdata('minimise')" class="submit"> Ways to minimise effect </button>
+</td>
+
+	<td class="td">
+	<button onclick="return fetchdata('world')" class="submit"> What the world is doing </button>
+</td>
+<td class="td">
+	<button onclick="return fetchdata('you')" class="submit"> What you can do </button>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="symptoms" style="display: none; text-align: center; background-color: peachpuff; margin-top: 10px;">
 <div style="font-size: 40px;">
-	The most common symptom of Covid-19 clashes with those of influenza as well as the common flu, and this is the reason why (if you don't count the controversy around it!) Chinese doctors were at first not able to perceive it as a new disease
+	<li>
+	The most common symptoms of Covid-19 clash with those of influenza as well as the common flu, and this is the reason why (if you don't count the controversy around it!) Chinese doctors were at first not able to perceive it as a new disease
+</li>
+	<li>
+		The common symptoms are:
+		<br>
+		Shortness of Breath
+		<br>
+		Fever
+		<br>
+		Sore Throat
+		<br>
+		Dry cough
+		<br>
+		Tiredness
+		<br>
+		among other less confirming ones like diarrhoea, runny nose, et cetera!
+		<br><br>
+		The most we could do now to let you know all the correct information is to redirect you <a href="https://www.who.int/health-topics/coronavirus#tab=tab_3">here!</a>
+	</li>
+	
+</div>
+</div>
+
+<div id="minimise" style="display: none; text-align: center; background-color: peachpuff; margin-top: 10px;">
+<div style="font-size: 40px;">
+Everyone knows it well that as of now, there has not been found a promising cure of this disease, but there still are certain ways we can contribute to the society and help minimise the spread of Covid-19.
+<br>
+<br>
+Staying indoors is the premier of them all. If you are not in a business that the government recognises as mandatory during this crisis, abstain from stepping out of your house if it is not urgent, and even if it is, take all the precautionary measures as directed by experts to protect yourself and the society from this virus.
+<br>
+<br>
+<li>
+	Keep your face and mouth properly covered all the time when in public.
+</li>
+<li>
+	Do not hoard essential supplies. Remember, Coronavirus spread is a two way process-the person you are interacting with too needs to have taken proper measures. A simple surgical mask will do, do not hoard N-95 masks. 
+</li>
+<li>
+	Maintain social distancing at any cost.
+</li>
+<li>
+	<a href="https://www.who.int/health-topics/coronavirus#tab=tab_2">Again!</a>
+</li>
+
+	
+</div>
+</div>
+
+<div id="world" style="display: none; text-align: center; background-color: peachpuff; margin-top: 10px;">
+<div style="font-size: 40px;">
+	<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports">They are striving to find a cure, or atleast help people!</a>
+	
+</div>
+</div>
+
+<div id="you" style="display: none; text-align: center; background-color: peachpuff; margin-top: 10px;">
+<div style="font-size: 40px;">
+
+		Economies are collapsing, and while we know there may be concerns on your part too about your finanaces, but no sum is small in times as such. Remember, together, we can get past all this. This is the time to show our <a href="https://www.pmcares.gov.in/en/">Janshakti.</a>
+	
 	
 </div>
 </div>
